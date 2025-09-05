@@ -107,3 +107,17 @@ footer {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0,0,0,0.15);
 }
+
+.back-btn {
+  color: white;
+  background: #4CAF50;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-right: 10px;
+  transition: background 0.3s;
+}
+
+.back-btn:hover {
+  background: #45a049;
+}
