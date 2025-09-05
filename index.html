@@ -7,30 +7,65 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
+  <!-- Навигация -->
+  <nav>
     <h1>Insights by Oksana</h1>
-    <p>Data Analyst | ML Enthusiast | Portfolio</p>
+    <ul>
+      <li><a href="#about" data-lang="about">About</a></li>
+      <li><a href="#projects" data-lang="projects">Projects</a></li>
+      <li><a href="#contact" data-lang="contact">Contact</a></li>
+    </ul>
+    <div class="lang-switch">
+      <button onclick="setLang('en')">EN</button>
+      <button onclick="setLang('ru')">RU</button>
+    </div>
+  </nav>
+
+  <!-- Главный блок -->
+  <header class="hero">
+    <h2 data-lang="welcome">Turning Data into Insights</h2>
+    <p data-lang="subtitle">Data Analyst | ML Enthusiast | Portfolio</p>
   </header>
 
-  <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>Hello! I'm Oksana, passionate about data, machine learning and creating insights through analytics.</p>
-    </section>
+  <!-- Обо мне -->
+  <section id="about">
+    <h2 data-lang="about-title">About Me</h2>
+    <p data-lang="about-text">
+      Hello! I'm Oksana, passionate about data, machine learning and creating insights through analytics.
+    </p>
+  </section>
 
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li>📊 Power BI Dashboard</li>
-        <li>🤖 ML Project: Delivery Time Prediction</li>
-      </ul>
-    </section>
+  <!-- Проекты -->
+  <section id="projects">
+    <h2 data-lang="projects-title">My Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>📊 Power BI Dashboard</h3>
+        <p data-lang="proj1">Interactive dashboard for sales analytics.</p>
+      </div>
+      <div class="project-card">
+        <h3>🤖 ML Delivery Prediction</h3>
+        <p data-lang="proj2">Machine learning model predicting delivery times.</p>
+      </div>
+      <div class="project-card">
+        <h3>📈 Data Visualization</h3>
+        <p data-lang="proj3">Exploring data stories through charts and graphs.</p>
+      </div>
+    </div>
+  </section>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: oxana.lebedeva.92@mail.ru</p>
-      <p>GitHub: <a href="https://github.com/OksanaLeb">github.com/OksanaLeb</a></p>
-    </section>
-  </main>
+  <!-- Контакты -->
+  <section id="contact">
+    <h2 data-lang="contact-title">Contact</h2>
+    <p>Email: <a href="mailto:yourmail@example.com">yourmail@example.com</a></p>
+    <p>GitHub: <a href="https://github.com/OksanaLeb">github.com/OksanaLeb</a></p>
+    <p>LinkedIn: <a href="#">linkedin.com/in/your-profile</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Insights by Oksana</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
