@@ -11,7 +11,8 @@ const translations = {
     proj1: "Interactive dashboard for sales analytics.",
     proj2: "Machine learning model predicting delivery times.",
     proj3: "Exploring data stories through charts and graphs.",
-    "contact-title": "Contact"
+    "contact-title": "Contact",
+    portfolio: "Portfolio"
   },
   ru: {
     welcome: "Преобразую данные в инсайты",
@@ -25,7 +26,8 @@ const translations = {
     proj1: "Интерактивный дашборд для анализа продаж.",
     proj2: "Модель машинного обучения для прогнозирования доставки.",
     proj3: "Визуализация данных через графики и диаграммы.",
-    "contact-title": "Контакты"
+    "contact-title": "Контакты",
+    portfolio: "Портфолио"
   }
 };
 
